@@ -53,7 +53,7 @@ if ((process.env.NODE_ENV = "production")) {
 
 //----------deployment
 
-const port = 9000 ||process.env.PORT;
+const port = process.env.PORT ||9000 ;
 
 mongoose.connect(process.env.URL, (error) => {
   if (error) {
