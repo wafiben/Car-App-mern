@@ -1,0 +1,16 @@
+export const USER_SIGN_UP = "USER_SIGN_UP";
+export const USER_SIGN_IN = "USER_SIGN_IN";
+export const USER_FAIL = "USER_FAIL";
+export const GET_USER = "GET_USER";
+export const LOG_OUT = "LOG_OUT";
+export const GET_POSTS = "GET_POSTS";
+export const POST_POST = "POST_POST";
+export const UPDATE_POST = "UPDATE_POST";
+export const LIKE_POST = "LIKE_POST";
+export const AUTH_GOOGLE = "AUTH_GOOGLE";
+export const GET_ONE_POST = "GET_ONE_POST";
+export const LOADING_POST = "LOADING_POST";
+export const TOGGLE = "TOGGLE";
+export const GET_ALL_USERS = "GET_ALL_USERS";
+export const GET_ALL_POSTS="GET_ALL_POSTS";
+export const LOADING="LOADING";
