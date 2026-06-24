@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Car-App-mern/precache-manifest.ad8bc554afd44a80895b165567131835.js"
+  "/Car-App-mern/precache-manifest.d253e87be0501cdb8f81654f45344049.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0135e16a79e19c5e16fd990164b7f356",
+    "revision": "f8df857309192138909365611eb4448f",
     "url": "/Car-App-mern/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Car-App-mern/static/css/2.8a1a4a43.chunk.css"
   },
   {
-    "revision": "b1d20556e6db2dd6c62e",
+    "revision": "1d630d5d8e36a98ffe61",
     "url": "/Car-App-mern/static/css/main.4121fb9d.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Car-App-mern/static/js/3.cd8cf101.chunk.js"
   },
   {
-    "revision": "b1d20556e6db2dd6c62e",
-    "url": "/Car-App-mern/static/js/main.98e5fae8.chunk.js"
+    "revision": "1d630d5d8e36a98ffe61",
+    "url": "/Car-App-mern/static/js/main.f7112aad.chunk.js"
   },
   {
     "revision": "9a7ac08ba4a828d2e93a",

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Car-App-mern/static/css/main.4121fb9d.chunk.css",
-    "main.js": "/Car-App-mern/static/js/main.98e5fae8.chunk.js",
-    "main.js.map": "/Car-App-mern/static/js/main.98e5fae8.chunk.js.map",
+    "main.js": "/Car-App-mern/static/js/main.f7112aad.chunk.js",
+    "main.js.map": "/Car-App-mern/static/js/main.f7112aad.chunk.js.map",
     "runtime-main.js": "/Car-App-mern/static/js/runtime-main.7fee730c.js",
     "runtime-main.js.map": "/Car-App-mern/static/js/runtime-main.7fee730c.js.map",
     "static/css/2.8a1a4a43.chunk.css": "/Car-App-mern/static/css/2.8a1a4a43.chunk.css",
@@ -11,7 +11,7 @@
     "static/js/3.cd8cf101.chunk.js": "/Car-App-mern/static/js/3.cd8cf101.chunk.js",
     "static/js/3.cd8cf101.chunk.js.map": "/Car-App-mern/static/js/3.cd8cf101.chunk.js.map",
     "index.html": "/Car-App-mern/index.html",
-    "precache-manifest.ad8bc554afd44a80895b165567131835.js": "/Car-App-mern/precache-manifest.ad8bc554afd44a80895b165567131835.js",
+    "precache-manifest.d253e87be0501cdb8f81654f45344049.js": "/Car-App-mern/precache-manifest.d253e87be0501cdb8f81654f45344049.js",
     "service-worker.js": "/Car-App-mern/service-worker.js",
     "static/css/2.8a1a4a43.chunk.css.map": "/Car-App-mern/static/css/2.8a1a4a43.chunk.css.map",
     "static/css/main.4121fb9d.chunk.css.map": "/Car-App-mern/static/css/main.4121fb9d.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.8a1a4a43.chunk.css",
     "static/js/2.d5227809.chunk.js",
     "static/css/main.4121fb9d.chunk.css",
-    "static/js/main.98e5fae8.chunk.js"
+    "static/js/main.f7112aad.chunk.js"
   ]
 }
