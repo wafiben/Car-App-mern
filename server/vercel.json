@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/validation-key.txt",
-      "dest": "server.js"
+      "dest": "/public/validation-key.txt"
     },
     {
       "src": "/(.*)",
