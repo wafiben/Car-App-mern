@@ -31,10 +31,11 @@ app.use("/auth", userRoute);
 app.use("/post", PostRouter);
 app.use("/admin", adminRouter);
 
-// 2. Pi Network Validation Route (Moved UP so it executes properly)
+// 2. Pi Network Validation Route (Fixed & Positioned correctly for Vercel)
 app.get("/validation-key.txt", (req, res) => {
   res.type("text/plain");
-  res.send("PASTE_YOUR_ACTUAL_PI_KEY_HERE"); // <-- Change this string to your real Pi key!
+  // ⚠️ REPLACE THE TEXT BELOW WITH YOUR ACTUAL KEY FROM PI BROWSER
+  res.send("PASTE_YOUR_ACTUAL_PI_KEY_HERE"); 
 });
 
 // 3. Base Route
