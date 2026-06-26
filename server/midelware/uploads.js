@@ -1,10 +1,25 @@
-const multer=require('multer');
-const path=require('path')
-const storage = multer.diskStorage({
-  destination: '../client/public/',
-  filename: function (req, file, cb) {
-    cb(null, file.fieldname + '-' +Date.now()+path.extname(file.originalname))
-  }
-})
-const upload=multer({storage:storage});
-module.exports=upload
+const cloudinary = require('cloudinary').v2;
+const multer = require('multer');
+
+cloudinary.config({
+  cloud_name: process.env.CLOUDINARY_NAME,
+  api_key: process.env.CLOUDINARY_KEY,
+  api_secret: process.env.CLOUDINARY_SECRET
+});
+
+const storage = multer.memoryStorage();
+const upload = multer({ storage });
+
+upload.uploadToCloudinary = async (file) => {
+  return new Promise((resolve, reject) => {
+    cloudinary.uploader.upload_stream(
+      { folder: 'car-app' },
+      (error, result) => {
+        if (error) reject(error);
+        else resolve(result);
+      }
+    ).end(file.buffer);
+  });
+};
+
+module.exports = upload;
