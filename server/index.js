@@ -26,10 +26,18 @@ app.use((req, res, next) => {
   next();
 });
 
+// 1. API Route Middlewares
 app.use("/auth", userRoute);
 app.use("/post", PostRouter);
 app.use("/admin", adminRouter);
 
+// 2. Pi Network Validation Route (Moved UP so it executes properly)
+app.get("/validation-key.txt", (req, res) => {
+  res.type("text/plain");
+  res.send("PASTE_YOUR_ACTUAL_PI_KEY_HERE"); // <-- Change this string to your real Pi key!
+});
+
+// 3. Base Route
 app.get("/", (req, res) => {
   res.send("API is running successfully");
 });
